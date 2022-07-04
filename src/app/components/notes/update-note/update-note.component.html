@@ -1,0 +1,18 @@
+<h2 mat-dialog-title class="title">Update Note</h2>
+<div mat-dialog-content class="content">
+    <form class="form">
+        <mat-form-field>
+            <input matInput type="text" placeholder="Title" [(ngModel)]="note.title" name="title">
+        </mat-form-field>
+        <mat-form-field>
+            <textarea matInput cdkTextareaAutosize cdkAutosizeMinRows="1"
+            cdkAutosizeMaxRows="10" placeholder="Description" [(ngModel)]="note.description" name="description">
+            </textarea>
+        </mat-form-field>
+        <div class="submit">
+            <button mat-raised-button mat-dialog-close color="primary" (click)="updateNote()">
+                Submit
+            </button>
+        </div>
+    </form>
+</div>

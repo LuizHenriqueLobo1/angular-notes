@@ -1,0 +1,15 @@
+.title {
+    font-weight: 400;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

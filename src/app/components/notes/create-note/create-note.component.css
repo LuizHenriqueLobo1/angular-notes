@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel {
+    width: 420px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
