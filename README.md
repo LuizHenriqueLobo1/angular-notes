@@ -22,7 +22,7 @@
 
 ### Como fazer funcionar?
 
-* Clone o repositório: `git clone https://github.com/LuizHenriqueLobo1/Angular-Notes.git`
+* Clone o repositório: `git clone https://github.com/LuizHenriqueLobo1/angular-notes.git`
 * Instale o Angular CLI: `npm install -g @angular/cli`
 * Instale as dependências: `npm i`
 * Rode o projeto: `ng serve`
